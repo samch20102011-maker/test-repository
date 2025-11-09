@@ -7,24 +7,7 @@ body {
     background-color: #222;
 }
 
-#grid-container {
-    width: 400px;
-    height: 400px;
-    overflow: auto; /* enables scrolling */
-    display: grid;
-    grid-template-columns: repeat(20, 40px); /* 20 columns, each 40px */
-    grid-template-rows: repeat(20, 40px);    /* 20 rows, each 40px */
-    background-color: #444;
-}
-
-.tile {
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-    border: 1px solid #555;
-    background-color: #888;
-}
-
-.player {
-    background-color: #f00;
+canvas {
+    border: 2px solid #fff;
+    image-rendering: pixelated; /* keeps tiles sharp */
 }
